@@ -7,8 +7,9 @@ function App(){
     //we've assigned increment and decrement to functions that increase or decrease the count
     let increment = () => {
         setCount(count + 1);
-    }//This variable is assigned to an arrow function that calls the setCount function which increases the count
-
+    }//This variable is assigned to an arrow function that calls the setCount function which increases the count and the count is increased in the usestate
+    //useState acts as the memory of our count hence if we increase our count we also increase the value in the useState. Hence you will end up noticing that count is equal to the the value in our useState
+    //you will note that when you press the onincrement button for example increment is called of which is assigned to a function secount that increases the count by one ,this is also what happens when the onDecrement button is pressed.
     let decrement = () => {
         setCount(count - 1);
     }
