@@ -28,7 +28,7 @@ function App(){
             onDecrement={decrement}/>
             <div className="extra-controls">
                 <button onClick={() => setCount(0)}>Reset</button>
-                <button onClick={() => setCount(count + 10)}>Add 10</button>
+                <button onclick={() => setCount(count + 10)}>Add 10</button>
             </div>
         </div>
         </>
